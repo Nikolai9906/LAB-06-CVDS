@@ -1,4 +1,7 @@
 # LAB-05-CVDS
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0917bdb85e264fa190a45fe59787a272)](https://app.codacy.com/manual/Nikolai9906/LAB-06-CVDS?utm_source=github.com&utm_medium=referral&utm_content=Nikolai9906/LAB-06-CVDS&utm_campaign=Badge_Grade_Dashboard)
+
 # Parte I
 ---
 ## Tipos de errores HTTP
