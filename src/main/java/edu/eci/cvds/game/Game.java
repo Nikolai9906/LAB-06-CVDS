@@ -36,7 +36,7 @@ public class Game {
 		return numberToGuess;
 	}
 
-	public int getNumeroIntentos() {
+	public int getNumberAttemps() {
 		return numberOfattemps;
 	}
 
@@ -45,7 +45,7 @@ public class Game {
 	}
 
 
-	public String getEstado() {
+	public String getState() {
 		return state;
 	}
 	public void restart() {
