@@ -1,12 +1,10 @@
 package edu.eci.cvds.servlet;
 
 import edu.eci.cvds.servlet.model.Todo;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.Writer;
 import java.net.MalformedURLException;
 import java.util.ArrayList;
-import java.util.NoSuchElementException;
 import java.util.Optional;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -19,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 		)
 
 
-public class mineServlet extends HttpServlet  {
+public class MineServlet extends HttpServlet  {
 	
 	@Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
