@@ -54,7 +54,7 @@ public class mineServlet extends HttpServlet  {
 		    responseWriter.write(Service.todosToHTMLTable(listaTodos));
 		    responseWriter.flush();  
 		    
-	    }catch (java.lang.NumberFormatException e) {
+	    }catch (NumberFormatException e) {
 			responseWriter.write("Requerimiento inv�lido");
 		}catch (MalformedURLException e) {
 			responseWriter.write("Error interno en el servidor");
